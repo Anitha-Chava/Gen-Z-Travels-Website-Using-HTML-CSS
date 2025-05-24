@@ -53,7 +53,7 @@ Welcome to **Gen'Z' Travels**, an immersive travel and accommodation platform ex
  Host it on GitHub Pages or Netlify and paste your link here:
  
  
-👉 [Live Demo](https://yourusername.github.io/GenZ-Travels)
+👉 [Live Demo](https://timely-kleicha-4f2b72.netlify.app/)
 
 
 
