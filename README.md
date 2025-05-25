@@ -47,7 +47,7 @@ Welcome to **Gen'Z' Travels**, an immersive travel and accommodation platform ex
 
 
 
-## ✨ Live Preview (Optional)
+## ✨ Live Preview
 
 
  Host it on GitHub Pages or Netlify and paste your link here:
