@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Greenary World</title>
+        <link rel = "stylesheet" href= "stylefornature.css">
+    </head>
+    <body>
+        <div class="header">
+            <nav id="navBar">
+                <img src="images/logo-redz.png" class="logo">
+                <img src="images/menu2.png" class="menu-icon" onclick="togglebutton()">
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Explore All Corners</a></li>
+                    <li><a href="housefordevotion.html">Accommodations</a></li>
+                    <li><a href="devlisting.html">Online Packages</a></li>
+                </ul>
+
+                <a href="#" class="register-button">Register Now</a>
+            </nav>
+
+            <div class = "container">
+                <h1>Find Your Next Stay</h1>
+                <div class="search-bar">
+                    <form>
+                        <div>
+                            <label>Location</label>
+                            <input type="text" placeholder="Where are you going?">
+                        </div>
+                        <div>
+                            <label>Check In</label>
+                            <input type="text" placeholder="Add Date">
+                        </div>
+                        <div>
+                            <label>Check Out</label>
+                            <input type="text" placeholder="Add Date">
+                        </div>
+                        <div>
+                            <label>Guest</label>
+                            <input type="text" placeholder="Add Guest">
+                        </div>
+                        <button type="submit"><img src="images/search.png"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="sub-title">Exclusives</h2>
+            
+            <div class="exclusives">
+                <div>
+                    <img src="images/nature1.png">
+                    <span>
+                        <h3>Kashmir Valley</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/nature2.png">
+                    <span>
+                        <h3>Kerala</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/nature3.png">
+                    <span>
+                        <h3>Himachal Pradesh</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/nature4.png">
+                    <span>
+                        <h3>Meghalaya</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/nature5.png">
+                    <span>
+                        <h3>Ladakh</h3>
+                        <p>Starts @ $250</p>
+                    </span>
+                </div>
+                
+            </div>
+
+            <h2 class="sub-title">Trending Places</h2>
+            <div class = "trending">
+                <div>
+                    <img src="images/nature4.png">
+                    <h3>Meghalaya</h3>
+                </div>
+                <div>
+                    <img src="images/nature6.png">
+                    <h3>Sikkim</h3>
+                </div>
+                <div>
+                    <img src="images/nature1.png">
+                    <h3>Kashmir Valley</h3>
+                </div>
+                <div>
+                    <img src="images/nature5.png">
+                    <h3>Ladakh</h3>
+                </div>
+            </div>
+            
+            <div class="cta">
+                <h3>Sharing <br>Is Earning Now</h3>
+                <p>Great opportunity to make money by <br>sharing your extra space.</p>
+                <a href="#" class="cta-button">Know More</a>
+            </div>
+
+            <h2 class="sub-title">Travelers Stories</h2>
+            <div class="stories">
+                <div>
+                    <img src="images/review-n1.png">
+                    <p>Hugged Trees, Kissed Flowers, Everything is beautiful.</p>
+                </div>
+                <div>
+                    <img src="images/review-n2.png">
+                    <p>10+ visited thank you Gen'Z Travels.</p>
+                </div>
+                <div>
+                    <img src="images/review-n3.png">
+                    <p>Just romantising the nature's beauty.</p>
+                </div>
+            </div>
+            <a href="#" class="start-button">Start Making Money</a>
+
+            <div class="about-msg">
+                <h2>Gen'Z' Nature's Pulse</h2>
+                <p>
+                    Contrary to popular belief, adventure isn't just for the seasoned explorer.
+                    Nature Trips' Devotional Edition offers a contemporary twist on timeless escapades.
+                    Rooted in ancient landscapes yet reimagined for today’s wanderlust,
+                    it melds exhilarating journeys with eco-conscious vibes. From tranquil hikes to immersive eco-lodges,
+                    we're creating a space that resonates with your adventurous spirit.
+                    Inspired by nature’s beauty, powered by the desire for discovery — because exploration isn’t outdated; it’s evolving.
+                </p>
+
+            </div>
+
+            <div class="footer">
+                <a href="https://facebook.com/"><img src="images/facebook.png"></a>
+                <a href="https://youtube.com/"><img src="images/youtube.png"></a>
+                <a href="https://twitter.com/"><img src="images/twitter.png"></a>
+                <a href="https://linkedin.com/"><img src="images/linkedin.png"></a>
+                <a href="https://instagram.com/"><img src="images/instagram.png"></a>
+                <hr>
+                <p>Copyright &copy 2025, Gen'Z' Travels</p>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+    <script>
+        var navBar = document.getElementById("navBar");
+        function togglebutton(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+
+    </body>
+</html>
