@@ -283,6 +283,11 @@ img{
     display: none; 
     margin-left: auto;
 }
+.slideshow img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.8s ease-in-out;
+}
 
 
 /*--------------for small screen devices-----------*/
