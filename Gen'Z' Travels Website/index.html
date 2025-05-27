@@ -6,6 +6,9 @@
         <link rel = "stylesheet" href= "style.css">
     </head>
     <body>
+        <div id="slideshow">
+            <img id="slide-img" src="images/slide1.jpg" alt="Travel" />
+        </div>
         <div class="header">
             <nav id="navBar">
                 <img src="images/logo1.png" class="logo">
@@ -194,6 +197,14 @@
         function togglebutton(){
             navBar.classList.toggle("hidemenu");
         }
+        const images = ["images/slide1.jpg", "images/slide2.jpg", "images/slide3.jpg"];
+        let index = 0;
+        const slideImg = document.getElementById("slide-img");
+
+        setInterval(() => {
+            index = (index + 1) % images.length;
+            slideImg.src = images[index];
+        }, 3000);
     </script>
 
     </body>
